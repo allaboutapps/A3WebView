@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3_webview_action_try_again">Nochmal Versuchen</string>
+    <string name="a3_webview_hint_loading_failed">Laden fehlgeschlagen</string>
+</resources>
