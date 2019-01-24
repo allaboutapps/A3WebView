@@ -97,6 +97,7 @@ public class A3WebView extends FrameLayout {
 
     webSettings.setBuiltInZoomControls(false);
     webSettings.setSupportZoom(false);
+    webSettings.setNeedInitialFocus(false);     // prevent scrolling to first focus by not focusing
     webSettings.setDisplayZoomControls(false);
 
     mWebView.setWebViewClient(new WebViewClient(settings));
