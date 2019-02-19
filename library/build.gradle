@@ -5,17 +5,17 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'at.allaboutapps.web'
-version = '0.1.0'
+version = '0.1.1'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     archivesBaseName = 'a3webview'
 
     defaultConfig {
-        minSdkVersion 11
-        targetSdkVersion 25
+        minSdkVersion 14
+        targetSdkVersion 28
     }
 
     lintOptions {
@@ -68,5 +68,5 @@ artifacts {
 }
 
 dependencies {
-    compile "com.android.support:appcompat-v7:$supportLibVersion"
+    implementation "com.android.support:appcompat-v7:$supportLibVersion"
 }
