@@ -8,8 +8,7 @@ group = 'at.allaboutapps.web'
 version = '0.1.1'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 29
 
     archivesBaseName = 'a3webview'
 
@@ -68,5 +67,5 @@ artifacts {
 }
 
 dependencies {
-    implementation "com.android.support:appcompat-v7:$supportLibVersion"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
 }
