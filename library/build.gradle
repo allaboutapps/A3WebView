@@ -8,13 +8,13 @@ group = 'at.allaboutapps.web'
 version = '0.1.1'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     archivesBaseName = 'a3webview'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 30
     }
 
     lintOptions {
