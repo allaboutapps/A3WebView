@@ -2,7 +2,7 @@ package at.allaboutapps.web.webview;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.webkit.WebView;
 
 /** Loads a string into the {@code WebView}. e.g. if the server sent HTML to display within json. */
